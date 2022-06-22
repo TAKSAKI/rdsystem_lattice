@@ -33,7 +33,7 @@ def laplacian(ix, iy, s):#ラプラシアンを求める
 @jit
 def calc(a, h, a2, h2):
     (L,L) = a.shape
-    dt=0.1
+    dt=0.01
     Dh=0.5
     ca=0.08
     ch=0.11
